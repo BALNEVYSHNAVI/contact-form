@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUVI Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="logo.webp" alt="GUVI and HCL Logo" class="logo">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">LIVE Classes</a></li>
+                    <li><a href="#">Practice</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Our Solutions</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Login</a>
+                <a href="#" class="login-btn">Submit</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h2>Contact Us</h2>
+                <p>Let us know your queries, feedbacks, and enquiries. We are here to support you 24/7.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="call.webp" alt="Phone Icon" class="contact-icon"> <!-- Phone icon -->
+                        <p><strong>Give us a call:</strong><br> +91 9736097320</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <img src="me.webp" alt="Email Icon" class="contact-icon"> <!-- Email icon -->
+                        <p><strong>Write to us:</strong><br> cs@guvi.in</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <img src="location.webp" alt="Location Icon" class="contact-icon"> <!-- Location icon -->
+                        <p><strong>Visit us in Chennai @</strong><br>
+                           IITM Research park - phase 2, module #9, 3rd floor, D block,<br> 
+                           Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113</p>
+                    </div>
+
+                    <div class="contact-item noida">
+                        <!-- No location icon for Noida -->
+                        <p><strong>Visit us in Noida @</strong><br>
+                           A11, HCL Corporation Pvt. Ltd, Block A,<br>
+                           Sector 3, Noida, Uttar Pradesh 201307</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <h2>Say Hello!</h2>
+                    <p>Feel free to stop by and say hi!</p>
+                    
+                    <form id="contact" novalidate>
+                        <label for="nameInput">Name:</label>
+                        <input type="text" id="name" placeholder="Name *" required><br><br>
+                
+                        <label for="emailInput">Email:</label>
+                        <input type="email" id="email" placeholder="E-mail id *" required><br><br>
+                
+                        <label for="contactInput">Contact Number:</label>
+                        <input type="tel" id="contactno" pattern="[0-9]{10}" placeholder="Contact Number *"required><br><br>
+                
+                        <label for="subjectInput">Subject:</label>
+                        <input type="text" id="subject"placeholder="Subject *" required><br><br>
+                
+                        <label for="messageInput">Message:</label>
+                        <textarea id="message" placeholder="Message *"required></textarea><br><br>
+                
+                        <button type="submit">Send</button>
+                    </form>
+                    <div id="form" style="margin-top: 20px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Triangular Design Elements -->
+        <img src="toptri.webp" alt="Design Element" class="triangle-design-top"> 
+        <img src="rtri.webp" alt="Design Element" class="triangle-design-bottom">
+    </section>
+    <script src="a.js"></script>
+</body>
+</html>

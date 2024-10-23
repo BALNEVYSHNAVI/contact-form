@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Header styling */
+.header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.auth-buttons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #28a745;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.contact-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-details {
+    width: 45%;
+}
+
+.contact-details h2 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+
+.contact-info {
+    margin-top: 20px;
+   
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+.contact-icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+/* No location icon for Noida */
+.contact-item.noida {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.contact-form-container {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.contact-form p {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
+/* Triangular Design Element */
+.triangle-design-top {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100px;
+}
+
+.triangle-design-bottom {
+    position: absolute;
+    bottom: 50px; /* Moved a bit up */
+    left: 0;
+    width: 120px;
+}
